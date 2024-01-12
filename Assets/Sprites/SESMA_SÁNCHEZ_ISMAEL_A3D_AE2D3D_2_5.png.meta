@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 78415e0a3dfab0c4fbf5749235cb3edb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_0"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 733
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a8613b40c93a24199107891719c7ed
+      internalID: -1485642946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_1"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 733
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e422b2fb96e8a49896d852a2eaf9c7
+      internalID: -398669084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_2"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 733
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09921e7772e2ddc499f51f15f72484b7
+      internalID: -943591787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_3"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 733
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0752b297295c4740af68a69507dbda4
+      internalID: -591830131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_4"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 733
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e62cce18623d764ba0accef94b327b8
+      internalID: -2013964721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_5"
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 733
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74597bd1bd2a304aae6148ca5cd344b
+      internalID: 1987736563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_6"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 605
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2152757139b375f4baf87baed4be847b
+      internalID: -1457720837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_7"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 477
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624dafa628156744e981fc181fa2a169
+      internalID: -415341941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_8"
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 477
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5180d0e9e7727cb45a3c7e345ce69f01
+      internalID: -1815983733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_9"
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 477
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac485b6d19a127048a78b3a63faa5e81
+      internalID: -165417632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_10"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 477
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0534d0c1618cf624f95f46a663211a4c
+      internalID: 1248804651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_11"
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 605
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f0b83ea2f81a9418d9f001b0eab373
+      internalID: -1869220136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_12"
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 477
+        width: 56
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4083602a1dce8714c904d6e830e42f41
+      internalID: 88743962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_13"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 477
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8314f755c84a34084edd2b77bec94d
+      internalID: 995131280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_14"
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 369
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a5416796014fb408d72ee68de764d8
+      internalID: 1868575475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_15"
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 368
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb14c0da10b52145a1cb24e4b9ce07c
+      internalID: 1359766279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_16"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 376
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b38a010aeede314b8518aa18445eb77
+      internalID: -1205020890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_17"
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 372
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b505bf499194847a6a652d95fcfdd6
+      internalID: -375204530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_18"
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 349
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2a8f80e9b19544a8999fce4a19a5dd
+      internalID: -1698755047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_19"
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 304
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b5b20882ecf10419d30e8e4f8ef5fb
+      internalID: 1891731728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_20"
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 310
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376ec0cd0045ecf458557084a43b66a4
+      internalID: -1759891748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_21"
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 308
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb97c530d8d70747be5e7bd969963d7
+      internalID: -794604664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_22"
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 245
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadaf31d1b0637a43b0917e19999a808
+      internalID: -311798180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_23"
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 249
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96cdaed7ca67f64f81625ae63b291d7
+      internalID: 1407846563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_0": -1485642946
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_1": -398669084
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_10": 1248804651
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_11": -1869220136
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_12": 88743962
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_13": 995131280
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_14": 1868575475
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_15": 1359766279
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_16": -1205020890
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_17": -375204530
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_18": -1698755047
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_19": 1891731728
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_2": -943591787
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_20": -1759891748
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_21": -794604664
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_22": -311798180
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_23": 1407846563
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_3": -591830131
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_4": -2013964721
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_5": 1987736563
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_6": -1457720837
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_7": -415341941
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_8": -1815983733
+      "SESMA_S\xC1NCHEZ_ISMAEL_A3D_AE2D3D_2_5_9": -165417632
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
