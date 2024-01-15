@@ -9,12 +9,16 @@ public class MarioScript : MonoBehaviour
     public LayerMask groundMask; // mascara de colisiones con la que queremos que el rayo se pueda chocar 
 
     private Rigidbody2D rb;
+    private SpriteRenderer _rend;
+    private Animator _animator; // para las animaciones
     private Vector2 dir;
-    private bool isJumping = false;
+    private bool isJumping;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        _rend = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -23,10 +27,12 @@ public class MarioScript : MonoBehaviour
         dir = Vector2.zero;
         if (Input.GetKey(rightKey))
         {
+            _rend.flipX = false;
             dir = Vector2.right;
         }
         else if (Input.GetKey(leftKey))
         {
+            _rend.flipX = true;
             dir = new Vector2(-1, 0);
         }
 
@@ -35,6 +41,16 @@ public class MarioScript : MonoBehaviour
         {
             isJumping = true;
         }
+        #region ANIMACIONES
+        if (dir != Vector2.zero)
+        {
+            _animator.SetBool("isWalking", true);
+        }
+        else
+        {
+            _animator.SetBool("isWalking", false);
+        }
+        #endregion
     }
 
     private void FixedUpdate()
@@ -51,6 +67,7 @@ public class MarioScript : MonoBehaviour
         {
             rb.AddForce( Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse); // añade una fuerza al riggidbody 
             isJumping = false;
+            
         }
         
     }
