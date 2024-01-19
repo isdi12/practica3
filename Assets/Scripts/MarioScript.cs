@@ -50,12 +50,14 @@ public class MarioScript : MonoBehaviour
         {
             _animator.SetBool("isWalking", false);
         }
+       
         #endregion
     }
 
     private void FixedUpdate()
     {
-        if (dir != Vector2.zero)
+        bool grnd = IsGrounded();
+        //if (dir != Vector2.zero)
         {
             
             float currentYVel= rb.velocity.y; // esto sirve para caer en la msima velocidad 
@@ -63,13 +65,16 @@ public class MarioScript : MonoBehaviour
             nVel.y = currentYVel;
             rb.velocity = nVel;
         }
-        if (isJumping && IsGrounded()) // si el jugador tiene la intencion de saltar le añadiremos la fuerza 
+        if (isJumping && grnd) // si el jugador tiene la intencion de saltar le añadiremos la fuerza 
         {
+            _animator.Play("Jump");
+            rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce( Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse); // añade una fuerza al riggidbody 
             isJumping = false;
             
         }
-        
+        _animator.SetBool("isGrounded", grnd); 
+
     }
 
     private bool IsGrounded() // como nos tiene que devolver verdadero usamos un bool en el metodo
