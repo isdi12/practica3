@@ -1,0 +1,1249 @@
+fileFormatVersion: 2
+guid: aa24c85c5e8b04f42b46a4e6b77b120c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 388
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43edeedb41f0fa541bf4b692435a1c74
+      internalID: 1291391993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 388
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bf0b7755efcfc48a5a3751caddd75a
+      internalID: 2060035578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 388
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677053775fdf0ab479f653a36e262963
+      internalID: -1839265954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 388
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718d88102d0410740b261d96f76fbb23
+      internalID: -1403744530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 388
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9651f1afa2672f4cbcbed1155053c0b
+      internalID: -1347607223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 388
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa5fc43b6b61b94e9c85ec718d53ef4
+      internalID: 1706809963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 388
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d3d9ae1b98e2f42b154476075bdcbe
+      internalID: -1529548114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 388
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25b03f2658ad0b4ebb4c782a5aeb063
+      internalID: 1892724732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 324
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe985c83044dc4c4a97b9447704e3805
+      internalID: 387602302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 324
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0051d64b22377ca41bb1b0baf60f5ee3
+      internalID: -890359200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 324
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679ac9337ca5d6748a7292151bebb4cf
+      internalID: -534931112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 324
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd60fa44863a1ab428c18c877ad7fdac
+      internalID: -1359290316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 324
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786d746cdbcfb994c8823718b2109a52
+      internalID: 625035921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 324
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55bcaf509ba5754c94dcfb9718360e4
+      internalID: -584417752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 260
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8bc413a5dff2542bb291a7884c208d
+      internalID: 1937159910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 260
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f88632fd38e894898c529e2ebc6d35
+      internalID: 610602787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 260
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6190659b0fe4ac4a8cbad78588e9d5d
+      internalID: 700297503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 260
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31eb61819f28a143adb379926013e69
+      internalID: 978878134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 260
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96282989137b81498894b32ffa18e20
+      internalID: 1672268330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 196
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75ba9dafdd6a544fb39482e2cfabe1e
+      internalID: 1984052092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 196
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebd889dd6edd0441892d5a4c2dd8586
+      internalID: 1307477002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 196
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb568e31a15d7bf4caf725bd11a17507
+      internalID: -1192032652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 196
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca09579c34da325449812694941ae9bd
+      internalID: -797229710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 196
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba777bab38a351b428dc8738ede7013e
+      internalID: 841832440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 196
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aed85ae4dd6cc45b43988e26f6b411
+      internalID: 860841958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 196
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643eed29e58a0744ca292942f431d960
+      internalID: 307210051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 196
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a8695794116f54f801dbcdebf50235
+      internalID: 2106681592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 196
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a1954f734a8744b920cfe5666cf4cb
+      internalID: 1975914730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 196
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fc85db0827c7b44bcd55fa066c16e7
+      internalID: 1901759816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 196
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5679743a405ef6048ac3a0a5585e772c
+      internalID: 1311791024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 132
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c40b18f3c67994eaa81a96810b9a5b
+      internalID: -1203233785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 132
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc202d5f764ca0479cba7d85d796bb6
+      internalID: -286854978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 132
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7b286214a6d9c4a949e48196485761
+      internalID: 1354313051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 136
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcc1452f21657349b09159ecb387239
+      internalID: -491433301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 140
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214f35fea7ae9104ab49ccae89d6c940
+      internalID: 1669272442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 144
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56265d45d1a981c408974d2d74c84349
+      internalID: 341028059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 144
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df933b4980b58f94693ec8d5c5ac3643
+      internalID: -497204397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 144
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5a7eec16ec2ed4a895233380c30da4
+      internalID: -1846607591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 149
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa29132af858b245a3a09c53fe1a6c6
+      internalID: -1414476203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 155
+        width: 66
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ec4797d4418984dad51c818f46123c
+      internalID: 1699882031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3449b2120e8d77244b599217414445ef
+      internalID: -614558665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 152
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508b13ae64b665646960df463e38be27
+      internalID: 1420302090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 154
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6229820b858f3d6478b78f90e74313a2
+      internalID: 49480603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 146
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08795b51145b96a4995af9a84dc91463
+      internalID: 1246471696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 148
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe7bab7bad53a5409343c7ef2981e98
+      internalID: 782589799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 78
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8c2e3330de93446aa491c45c0b8949
+      internalID: -1356047163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 76
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a78422731c7f8c458eb795f93d460be
+      internalID: -958091974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 72
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbb520707b81884392e235d7316d27a
+      internalID: 2035149188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 68
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3c3a544bf777647aefd655d6ba5fab
+      internalID: -1811582585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 68
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b314442533ad45a4b9258abb0b35b93d
+      internalID: 902603947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 68
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c64338de48a654086011f93f12f4dd
+      internalID: -333264399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_0: 1291391993
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_1: 2060035578
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_10: -534931112
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_11: -1359290316
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_12: 625035921
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_13: -584417752
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_14: 1937159910
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_15: 610602787
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_16: 700297503
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_17: 978878134
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_18: 1672268330
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_19: 1984052092
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_2: -1839265954
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_20: 1307477002
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_21: -1192032652
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_22: -797229710
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_23: 841832440
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_24: 860841958
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_25: 307210051
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_26: 2106681592
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_27: 1975914730
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_28: 1901759816
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_29: 1311791024
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_3: -1403744530
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_30: -1203233785
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_31: -286854978
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_32: 1354313051
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_33: -491433301
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_34: 1669272442
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_35: 341028059
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_36: -497204397
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_37: -1846607591
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_38: -1414476203
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_39: 1699882031
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_4: -1347607223
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_40: -614558665
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_41: 1420302090
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_42: 49480603
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_43: 1246471696
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_44: 782589799
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_45: -1356047163
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_46: -958091974
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_47: 2035149188
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_48: -1811582585
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_49: 902603947
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_5: 1706809963
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_50: -333264399
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_6: -1529548114
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_7: 1892724732
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_8: 387602302
+      Paraiso_Herreros_Alonso_A3D_AE2D3D_03_spritesheet_9: -890359200
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

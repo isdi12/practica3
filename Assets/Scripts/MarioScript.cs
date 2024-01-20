@@ -37,7 +37,7 @@ public class MarioScript : MonoBehaviour
         }
 
         isJumping = false;
-        if (Input.GetKey(jumpKey)) 
+        if (Input.GetKey(jumpKey))
         {
             isJumping = true;
         }
@@ -50,7 +50,7 @@ public class MarioScript : MonoBehaviour
         {
             _animator.SetBool("isWalking", false);
         }
-       
+
         #endregion
     }
 
@@ -59,9 +59,9 @@ public class MarioScript : MonoBehaviour
         bool grnd = IsGrounded();
         //if (dir != Vector2.zero)
         {
-            
-            float currentYVel= rb.velocity.y; // esto sirve para caer en la msima velocidad 
-            Vector2 nVel =dir * speed;
+
+            float currentYVel = rb.velocity.y; // esto sirve para caer en la msima velocidad 
+            Vector2 nVel = dir * speed;
             nVel.y = currentYVel;
             rb.velocity = nVel;
         }
@@ -69,22 +69,22 @@ public class MarioScript : MonoBehaviour
         {
             _animator.Play("Jump");
             rb.velocity = new Vector2(rb.velocity.x, 0);
-            rb.AddForce( Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse); // añade una fuerza al riggidbody 
+            rb.AddForce(Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse); // añade una fuerza al riggidbody 
             isJumping = false;
-            
+
         }
-        _animator.SetBool("isGrounded", grnd); 
+        _animator.SetBool("isGrounded", grnd);
 
     }
 
     private bool IsGrounded() // como nos tiene que devolver verdadero usamos un bool en el metodo
     {
         RaycastHit2D collision = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundMask); // lanza un rayo desde el centro del personaje hacia abajo el rayo llega hasta ray distance y solo va encontrar colisiones en la capa que definamos en groundmask
-        if(collision) // si chocamos con lo deseado devolvera true si no false
+        if (collision) // si chocamos con lo deseado devolvera true si no false
         {
             return true;
         }
-       
+
         return false;
     }
 
@@ -94,4 +94,12 @@ public class MarioScript : MonoBehaviour
         Gizmos.DrawRay(transform.position, Vector2.down * rayDistance); // esto lo que nos permite es dibujar el rayo, se multiplica el vector por el escalar (raydistance) 
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.GetComponent<Enemy>())
+        {
+            Destroy(gameObject);
+        }
+    }
 }
