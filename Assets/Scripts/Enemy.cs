@@ -42,11 +42,18 @@ public class Enemy : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<DeathZone>()) 
-        { 
+        if (collision.GetComponent<DeathZone>())
+        {
             Destroy(gameObject);
+        }  
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.GetComponent<MarioScript>())
+        {
+            Destroy(collision.gameObject);
             Restart.gameObject.SetActive(true);
             GameOver.enabled = true;
         }
-    }              
+    }
 }

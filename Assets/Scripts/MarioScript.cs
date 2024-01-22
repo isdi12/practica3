@@ -103,16 +103,7 @@ public class MarioScript : MonoBehaviour
             transform.position = new Vector2(-10.16f, -2.89f);
 
         }
-
-
-
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.GetComponent<Enemy>())
-        {
-            Destroy(gameObject);
-        }
-    }
+    
 }
             

@@ -587,6 +587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1428896596}
   - component: {fileID: 1428896595}
+  - component: {fileID: 1428896597}
   m_Layer: 0
   m_Name: Deathzone
   m_TagString: Respawn
@@ -623,7 +624,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 3.384509, y: 0}
@@ -654,6 +655,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1428896597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428896594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89275fb91ce477b489a0fe14c9518c96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1570070058
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,6 +1081,10 @@ PrefabInstance:
     - target: {fileID: 1347159004858918776, guid: 3efbef2150146d442a62f6d1bd0f44bb, type: 3}
       propertyPath: m_Offset.y
       value: 0.18865061
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255038651873446928, guid: 3efbef2150146d442a62f6d1bd0f44bb, type: 3}
+      propertyPath: Pepe
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3255038651873446928, guid: 3efbef2150146d442a62f6d1bd0f44bb, type: 3}
       propertyPath: Restart
