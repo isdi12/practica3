@@ -13,7 +13,8 @@ public class MarioScript : MonoBehaviour
     private Animator _animator; // para las animaciones
     private Vector2 dir;
     private bool isJumping;
-    
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -95,6 +96,23 @@ public class MarioScript : MonoBehaviour
         Gizmos.DrawRay(transform.position, Vector2.down * rayDistance); // esto lo que nos permite es dibujar el rayo, se multiplica el vector por el escalar (raydistance) 
     }
 
-   
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.GetComponent<DeathZone>())
+        {
+            transform.position = new Vector2(-10.16f, -2.89f);
+
+        }
+
+
+
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.GetComponent<Enemy>())
+        {
+            Destroy(gameObject);
+        }
+    }
 }
             
