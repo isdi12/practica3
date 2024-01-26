@@ -26,6 +26,8 @@ public class MarioScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        print(GameManager.instance.GetTime());
+
         dir = Vector2.zero;
         if (Input.GetKey(rightKey))
         {

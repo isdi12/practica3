@@ -52,7 +52,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.GetComponent<MarioScript>())
         {
             Destroy(collision.gameObject);
-            Restart.gameObject.SetActive(true);
+            Restart.gameObject.SetActive(true); // al chocar el mario saldra el boton 
             GameOver.enabled = true;
         }
     }

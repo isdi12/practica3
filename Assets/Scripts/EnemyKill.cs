@@ -9,7 +9,7 @@ public class EnemyKill : MonoBehaviour
     {
         if(collision.GetComponent<MarioScript>() )
         {
-            Destroy(transform.parent.gameObject );
+            Destroy(transform.parent.gameObject ); // con el parent podemos destruir el goomba ya que el collider puesto para su destruccion es el del hijo
         }
     }
 }
