@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance; // el gamemanager controla las variables que no se relacionan con otros gameobjects del juego 
+    public enum GameManagerVariables { TIME, POINTS }; // esto sirve para facilitar la lectura del codigo 
 
     private float time;
     private int points;
+
     private void Awake()
     {
         if(!instance) // si instance no tiene informacion 
@@ -37,7 +40,7 @@ public class GameManager : MonoBehaviour
     {
         return time;
     }
-    // Getter
+    // Getter sirve para obtener las cosas 
     public int GetPoints()
     {
         return points ; 
@@ -46,5 +49,13 @@ public class GameManager : MonoBehaviour
     public void SetPoints(int value)
     {
         points = value; 
+
+    }
+    // callback---> funcion que se va a llamar en el onclick de los botones 
+    public void LoadScene (string sceneName)
+    {
+
+        SceneManager.LoadScene(sceneName);
+    
     }
 }
