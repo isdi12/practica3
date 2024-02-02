@@ -56,6 +56,12 @@ public class GameManager : MonoBehaviour
     {
 
         SceneManager.LoadScene(sceneName);
-    
+       AudioManager.instance.ClearAudios(); // esto nos ayuda a limpiar el audio anterior 
+    }
+
+    public void ExitGame () 
+    {
+        Debug.Log("Exit!!");
+        Application.Quit();
     }
 }
