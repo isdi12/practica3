@@ -8,7 +8,7 @@ public class Restart : MonoBehaviour
     // Start is called before the first frame update
     public void RestartScene()
     {
-        SceneManager.LoadScene("SampleScene"); // con esto al apretar el boton reiniciara el juego 
+        GameManager.instance.LoadScene("SampleScene"); //con esto llevamos el reinicio del juego al loadscene del game manager y ejecutara su metodo 
     }
 
     // Update is called once per frame

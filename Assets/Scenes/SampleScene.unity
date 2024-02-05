@@ -320,6 +320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 656817017}
   - component: {fileID: 656817016}
+  - component: {fileID: 656817023}
   - component: {fileID: 656817015}
   - component: {fileID: 656817019}
   - component: {fileID: 656817021}
@@ -352,6 +353,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 8
+  jumpClip: {fileID: 8300000, guid: a95aa8cd9e4637c41b5042de82e216cf, type: 3}
 --- !u!212 &656817016
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -520,6 +522,18 @@ PolygonCollider2D:
       - {x: 0.10677074, y: -0.22460087}
       - {x: 0.114999995, y: 0.255}
   m_UseDelaunayMesh: 0
+--- !u!114 &656817023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656817014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43a1f4107652e8a4582fb09ebc8853f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &668096938
 GameObject:
   m_ObjectHideFlags: 0

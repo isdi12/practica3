@@ -7,13 +7,14 @@ public class MarioScript : MonoBehaviour
     public KeyCode rightKey, leftKey, jumpKey;
     public float speed, jumpForce, rayDistance;
     public LayerMask groundMask; // mascara de colisiones con la que queremos que el rayo se pueda chocar 
+    public AudioClip jumpClip;
 
     private Rigidbody2D rb;
     private SpriteRenderer _rend;
     private Animator _animator; // para las animaciones
     private Vector2 dir;
     private bool isJumping;
-
+   
 
     // Start is called before the first frame update
     void Start()
@@ -75,6 +76,7 @@ public class MarioScript : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse); // añade una fuerza al riggidbody 
             isJumping = false;
+            AudioManager.instance.PlayAudio(jumpClip, "jumpSound"); // con esto le ponemos el sonido del salto 
 
         }
         _animator.SetBool("isGrounded", grnd);
