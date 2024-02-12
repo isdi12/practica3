@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance; // el gamemanager controla las variables que no se relacionan con otros gameobjects del juego 
     public enum GameManagerVariables { TIME, POINTS }; // esto sirve para facilitar la lectura del codigo 
 
+    private bool isDead = false;
     private float time;
     private int points;
 
@@ -51,6 +52,17 @@ public class GameManager : MonoBehaviour
         points = value; 
 
     }
+
+    public bool GetIsDead()
+    {
+        return isDead;
+    }
+
+    public void SetIsDead(bool value)
+    {
+        isDead = value;
+    }
+
     // callback---> funcion que se va a llamar en el onclick de los botones 
     public void LoadScene (string sceneName)
     {

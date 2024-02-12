@@ -21,7 +21,7 @@ public class UpdateText : MonoBehaviour
         switch (variable) // el switch es como usar el if else se pueden ambas 
         {
             case GameManager.GameManagerVariables.TIME: 
-                scoreComponent.text = "Time:" + GameManager.instance.GetTime().ToString("#.##"); // esto sirve para actualizar el tiempo
+                scoreComponent.text = "Time:" + GameManager.instance.GetTime().ToString("#.##"); // esto sirve para actualizar el tiempo el tostring sirve para que solo salgan dos decimales 
                 break;
 
             case GameManager.GameManagerVariables.POINTS: 

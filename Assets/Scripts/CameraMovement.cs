@@ -10,6 +10,6 @@ public class CameraMovement : MonoBehaviour
     private void Update()
     {
         if (rana != null)
-            transform.position = new Vector3(rana.transform.position.x,transform.position.y,transform.position.z);  
+            transform.position = new Vector3(rana.transform.position.x,rana.transform.position.y,transform.position.z);  
     }
 }

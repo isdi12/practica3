@@ -9,16 +9,16 @@ public class Enemy : MonoBehaviour
     public float speed ;
     public Transform Pepe;
     private SpriteRenderer _rend;
-    public GameObject Restart;
-    public Image GameOver;
+    // public GameObject Restart;
+    // public Image GameOver;
     
     // Start is called before the first frame update
     void Start()
     {
         _rend = GetComponent<SpriteRenderer>();
         Pepe = FindAnyObjectByType<MarioScript>().transform;
-        GameOver.enabled = false;
-        Restart.gameObject.SetActive(false);
+        //GameOver.enabled = false;
+        //Restart.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -52,8 +52,10 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.GetComponent<MarioScript>())
         {
             Destroy(collision.gameObject);
-            Restart.gameObject.SetActive(true); // al chocar el mario saldra el boton 
-            GameOver.enabled = true;
+            GameManager.instance.SetIsDead(true);
+
+            //Restart.gameObject.SetActive(true); // al chocar el mario saldra el boton 
+            //GameOver.enabled = true;
         }
     }
 }

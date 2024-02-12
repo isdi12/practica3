@@ -2,21 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyKill : MonoBehaviour
+public class Coin : MonoBehaviour
 {
+    
     public int points = 1;
     private int totalPoints;
-    public AudioClip killClip;
-    // Start is called before the first frame update
+    public AudioClip coinClip;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.GetComponent<MarioScript>() )
+        if (collision.GetComponent<MarioScript>())
         {
-            Destroy(transform.parent.gameObject ); // con el parent podemos destruir el goomba ya que el collider puesto para su destruccion es el del hijo
+            Destroy(gameObject); 
             totalPoints = GameManager.instance.GetPoints(); // para que se consigan los puntos 
             totalPoints = points + totalPoints; // para que se vayan sumando 
             GameManager.instance.SetPoints(totalPoints); // para que aparezcan todos los puntos 
-            AudioManager.instance.PlayAudio(killClip, "killSound");
+            AudioManager.instance.PlayAudio(coinClip, "coinSound"); // con esto le ponemos el sonido de la moneda
         }
     }
 }
+
