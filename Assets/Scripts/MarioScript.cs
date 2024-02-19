@@ -14,8 +14,8 @@ public class MarioScript : MonoBehaviour
     private Animator _animator; // para las animaciones
     private Vector2 dir;
     private bool isJumping;
-   
-
+    public int maxJumps = 2; // para el numero maximo de saltos que se pueda hacer
+    private int currentJumps;  // para indicar cuantos saltos llevamos 
     // Start is called before the first frame update
     void Start()
     {
@@ -41,8 +41,8 @@ public class MarioScript : MonoBehaviour
             dir = new Vector2(-1, 0);
         }
 
-        isJumping = false;
-        if (Input.GetKey(jumpKey))
+        //isJumping = false;
+        if (Input.GetKeyDown(jumpKey))
         {
             isJumping = true;
         }
@@ -70,27 +70,29 @@ public class MarioScript : MonoBehaviour
             nVel.y = currentYVel;
             rb.velocity = nVel;
         }
-        if (isJumping && grnd) // si el jugador tiene la intencion de saltar le añadiremos la fuerza 
+        if (isJumping && (grnd|| currentJumps < maxJumps - 1)) // si el jugador tiene la intencion de saltar le añadiremos la fuerza  el currentjumps debe ser menor que el maxjumps para que funcione el doble salto 
         {
             _animator.Play("Jump");
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * jumpForce * rb.gravityScale, ForceMode2D.Impulse); // añade una fuerza al riggidbody 
-            isJumping = false;
+            currentJumps++; // le suma 1 a la variable 
             AudioManager.instance.PlayAudio(jumpClip, "jumpSound"); // con esto le ponemos el sonido del salto 
 
         }
+            isJumping = false;
         _animator.SetBool("isGrounded", grnd);
 
-    }
+    } 
 
     private bool IsGrounded() // como nos tiene que devolver verdadero usamos un bool en el metodo
     {
         RaycastHit2D collision = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundMask); // lanza un rayo desde el centro del personaje hacia abajo el rayo llega hasta ray distance y solo va encontrar colisiones en la capa que definamos en groundmask
         if (collision) // si chocamos con lo deseado devolvera true si no false
         {
+            currentJumps = 0;
             return true;
         }
-
+           
         return false;
     }
 

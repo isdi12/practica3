@@ -26,7 +26,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource PlayAudio (AudioClip audioClip, string gameObjectName, bool isLoop = false, float volume = 1.0f)
     {
         GameObject audioObject = new GameObject(gameObjectName); // declaramos el gameobject
-        audioObject.transform.SetParent(transform); // esto es para tenerlo organizado y que todos los objetos de audio que se vayam creand sean hijos del audiomanager
+        audioObject.transform.SetParent(transform); // esto es para tenerlo organizado y que todos los objetos de audio que se vayam creando sean hijos del audiomanager
         AudioSource audioSourceComponent = audioObject.AddComponent<AudioSource>(); // con esto añadimos el componente audiosource
         audioSourceComponent.clip = audioClip;  //asignamos el clip al componente este clip es el que recibe 
         audioSourceComponent.loop = isLoop;    // asignamos el loop al componente 
